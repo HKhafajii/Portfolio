@@ -7,18 +7,15 @@
     <link rel="stylesheet" href="style.css">
     <script src="https://unpkg.com/ionicons@4.5.10-0/dist/ionicons.js"></script>
 </head>
-<body class="min-h-screen bg-amber-200">
-  <!-- <header class="h-20 rounded-b-md"> -->
+<body class="min-h-screen ">
+  
     <div class=" bg-white rounded-b-lg shadow-lg">
     <nav class="flex justify-between items-center w-[92%] mx-auto">
-        <div> <ul class="flex md:flex-row flex-col md:items-center   font-semibold">
-           <li>
+        <div> 
+           
             <img class="w-16 cursor-pointer rounded-full p-1" src="/assets/headshot.jpg" alt="headshot">
-           </li>
-           <li>
-             <p class="text-gray-500">Hassan Alkhafaji</p>
-            </li>
-          </ul>
+           
+          
         </div>
         <div
             class="nav-links duration-500 md:static absolute  md:min-h-fit min-h-[60vh] left-0 top-[-100%] md:w-auto  w-full flex items-center px-5">
@@ -39,41 +36,53 @@
             </ul>
         </div>
         <div class="flex items-center gap-6">
-            <button class="bg-amber-400 text-black font-medium px-5 py-2 rounded-full hover:bg-amber-300 hover:text-gray-500">Contact Me</button>
+            <button class="bg-amber-400 text-black font-medium px-5 py-2 rounded-full hover:bg-amber-300 hover:text-gray-500">Contact Me</button>]
+
+          <!--  TODO: Make the drop down menu push everything down -->
+            
             <ion-icon onclick="onToggleMenu(this)" name="menu" class="text-3xl cursor-pointer md:hidden"></ion-icon>
         </div>
     </nav>
     
+    
     </div>
-    <div>
-      <div>
+
+    <!--* This is the pattern so figure how to work with it  -->
+    <!-- TODO: Work with different sections and not having them all include the wavy background -->
+
+    <div class="pattern-wavy pattern-rose-900 pattern-bg-white 
+    pattern-size-6 pattern-opacity-10 fixed top-20 left-0 right-0 bottom-60"></div>
+    <div class="">
+      <div class="">
         <div class="">
           <div class="mx-auto max-w-7xl py-24 sm:px-6 sm:py-32 lg:px-8">
-            <div class="relative isolate overflow-hidden bg-gray-900 px-6 pt-16 shadow-2xl sm:rounded-3xl sm:px-16 md:pt-24 lg:flex lg:gap-x-20 lg:px-24 lg:pt-0">
+            <div class="relative isolate overflow-hidden bg-white px-6 pt-16 shadow-2xl sm:rounded-3xl sm:px-16 md:pt-24 lg:flex lg:gap-x-20 lg:px-24 lg:pt-0">
               <svg viewBox="0 0 1024 1024" class="absolute left-1/2 top-1/2 -z-10 h-[64rem] w-[64rem] -translate-y-1/2 [mask-image:radial-gradient(closest-side,white,transparent)] sm:left-full sm:-ml-80 lg:left-1/2 lg:ml-0 lg:-translate-x-1/2 lg:translate-y-0" aria-hidden="true">
-                <circle cx="512" cy="512" r="512" fill="url(#759c1415-0410-454c-8f7c-9a820de03641)" fill-opacity="0.7" />
+                <!-- <circle cx="512" cy="512" r="512" fill="url(#759c1415-0410-454c-8f7c-9a820de03641)" fill-opacity="0.7" /> -->
                 <defs>
-                  <radialGradient id="759c1415-0410-454c-8f7c-9a820de03641">
+                  <!-- <radialGradient id="759c1415-0410-454c-8f7c-9a820de03641">
                     <stop stop-color="#7775D6" />
                     <stop offset="1" stop-color="#E935C1" />
-                  </radialGradient>
+                  </radialGradient> -->
                 </defs>
               </svg>
               <div class="mx-auto max-w-md text-center lg:mx-0 lg:flex-auto lg:py-32 lg:text-left">
-                <h2 class="text-3xl font-bold tracking-tight text-white sm:text-4xl">Boost your productivity.<br>Start using our app today.</h2>
-                <p class="mt-6 text-lg leading-8 text-gray-300">Ac euismod vel sit maecenas id pellentesque eu sed consectetur. Malesuada adipiscing sagittis vel nulla.</p>
-                <div class="mt-10 flex items-center justify-center gap-x-6 lg:justify-start">
-                  <a href="#" class="rounded-md bg-white px-3.5 py-2.5 text-sm font-semibold text-gray-900 shadow-sm hover:bg-gray-100 focus-visible:outline focus-visible:outline-2 focus-visible:outline-offset-2 focus-visible:outline-white">Get started</a>
-                  <a href="#" class="text-sm font-semibold leading-6 text-white">Learn more <span aria-hidden="true">→</span></a>
+                <h2 class="text-3xl font-bold text-center tracking-tight text-black sm:text-4xl">Make your idea into reality!<br>Fullstack Development</h2>
+                <p class="mt-6 text-lg leading-8 text-center text-gray-400">Contact me today, and lets get started on planning making your idea to reality.</p>
+                <div class="mt-10 flex items-center justify-center gap-x-6 ">
+                  
+                  
+                  <a href="#" class="text-sm font-semibold leading-6 rounded-md bg-amber-200 hover:bg-gray-100 focus-visible:outline focus-visible:outline-2  focus-visible:outline-offset-2 focus-visible:outline-white px-3.5 py-2.5"> Get Started </a>
                 </div>
               </div>
-              <div class="relative mt-16 h-80 lg:mt-8">
-                
+              <div class="relative mt-16 h-80 lg:mt-8m md:flex md:justify-center md:items-center sm:justify-center sm:items-center sm:flex">
+                <img src="/assets/memoriapicture.png" alt="iphone" class="object-contain h-96" >
               </div>
             </div>
           </div>
         </div>
       </div>
+    </div>
       <div class="bg-white">
         asdasdasd
       </div>
